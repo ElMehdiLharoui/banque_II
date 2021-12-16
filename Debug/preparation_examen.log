@@ -1,0 +1,52 @@
+﻿  compte.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(18,10): error C3646: 'date' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(18,14): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(19,10): error C3646: 'heure' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(19,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\operationRR.h(15,16): error C3646: 'libelle' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operationRR.h(15,23): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\compte.cpp(84,23): warning C4018: '<' : incompatibilité signed/unsigned
+  devise.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\devise.cpp(96,30): error C2248: 'Banque::euro::euro' : impossible d'accéder à private membre déclaré(e) dans la classe 'Banque::euro'
+C:\Users\ElMehdi\source\repos\preparation_examen\euro.h(12): message : voir la déclaration de 'Banque::euro::euro'
+C:\Users\ElMehdi\source\repos\preparation_examen\euro.h(6): message : voir la déclaration de 'Banque::euro'
+  dollar.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\dollar.cpp(28,36): error C2027: utilisation du type non défini 'Banque::MAD'
+C:\Users\ElMehdi\source\repos\preparation_examen\devise.h(3): message : voir la déclaration de 'Banque::MAD'
+C:\Users\ElMehdi\source\repos\preparation_examen\dollar.cpp(33,37): error C2027: utilisation du type non défini 'Banque::euro'
+C:\Users\ElMehdi\source\repos\preparation_examen\devise.h(5): message : voir la déclaration de 'Banque::euro'
+  euro.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\euro.cpp(21,44): error C2027: utilisation du type non défini 'Banque::dollar'
+C:\Users\ElMehdi\source\repos\preparation_examen\devise.h(4): message : voir la déclaration de 'Banque::dollar'
+C:\Users\ElMehdi\source\repos\preparation_examen\euro.cpp(31,39): error C2027: utilisation du type non défini 'Banque::MAD'
+C:\Users\ElMehdi\source\repos\preparation_examen\devise.h(3): message : voir la déclaration de 'Banque::MAD'
+  MAD.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\MAD.cpp(26,50): error C2027: utilisation du type non défini 'Banque::dollar'
+C:\Users\ElMehdi\source\repos\preparation_examen\devise.h(4): message : voir la déclaration de 'Banque::dollar'
+C:\Users\ElMehdi\source\repos\preparation_examen\MAD.cpp(31,46): error C2027: utilisation du type non défini 'Banque::euro'
+C:\Users\ElMehdi\source\repos\preparation_examen\devise.h(5): message : voir la déclaration de 'Banque::euro'
+  operation.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(18,10): error C3646: 'date' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(18,14): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(19,10): error C3646: 'heure' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(19,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.cpp(18,21): error C2039: 'heure' n'est pas membre de 'Banque::operation'
+C:\Users\ElMehdi\source\repos\preparation_examen\compte.h(11): message : voir la déclaration de 'Banque::operation'
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.cpp(18,37): error C2065: 'date' : identificateur non déclaré
+  operationRR.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(18,10): error C3646: 'date' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(18,14): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(19,10): error C3646: 'heure' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(19,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\operationRR.h(15,16): error C3646: 'libelle' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operationRR.h(15,23): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\operationRR.cpp(15,16): error C2039: 'libelle' n'est pas membre de 'Banque::operationRR'
+C:\Users\ElMehdi\source\repos\preparation_examen\operationRR.h(4): message : voir la déclaration de 'Banque::operationRR'
+  operationV.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(18,10): error C3646: 'date' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(18,14): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(19,10): error C3646: 'heure' : spécificateur de substitution inconnu
+C:\Users\ElMehdi\source\repos\preparation_examen\operation.h(19,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  opreationR.cpp
+C:\Users\ElMehdi\source\repos\preparation_examen\opreationR.h(3,1): error C2504: 'operation' : classe de base non définie
+  Génération de code en cours...

@@ -1,0 +1,2 @@
+﻿  banque.cpp
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'C:\Users\ElMehdi\source\repos\preparation_examen\Debug\preparation_examen.lib'
